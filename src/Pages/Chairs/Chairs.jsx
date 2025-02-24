@@ -85,42 +85,43 @@ import Chairs79 from '../../assets/Chairs79.jpeg';
 import Chairs80 from '../../assets/Chairs80.jpeg';
 import Chairs81 from '../../assets/Chairs81.jpeg';
 import Chairs82 from '../../assets/Chairs82.jpeg';
-import Chairs83 from '../../assets/Chairs83.jpeg';
-import Chairs84 from '../../assets/Chairs84.jpeg';
-import Chairs85 from '../../assets/Chairs85.jpeg';
-import Chairs86 from '../../assets/Chairs86.jpeg';
-import Chairs87 from '../../assets/Chairs87.jpeg';
-import Chairs88 from '../../assets/Chairs88.jpeg';
-import Chairs89 from '../../assets/Chairs89.jpeg';
-import Chairs90 from '../../assets/Chairs90.jpeg';
-import Chairs91 from '../../assets/Chairs91.jpeg';
-import Chairs92 from '../../assets/Chairs92.jpeg';
-import Chairs93 from '../../assets/Chairs93.jpeg';
-import Chairs94 from '../../assets/Chairs94.jpeg';
-import Chairs95 from '../../assets/Chairs95.jpeg';
-import Chairs96 from '../../assets/Chairs96.jpeg';
-import Chairs97 from '../../assets/Chairs97.jpeg';
-import Chairs98 from '../../assets/Chairs98.jpeg';
-import Chairs99 from '../../assets/Chairs99.jpeg';
-import Chairs100 from '../../assets/Chairs100.jpeg';
-import Chairs101 from '../../assets/Chairs101.jpeg';
-import Chairs102 from '../../assets/Chairs102.jpeg';
-import Chairs103 from '../../assets/Chairs103.jpeg';
-import Chairs104 from '../../assets/Chairs104.jpeg';
-import Chairs105 from '../../assets/Chairs105.jpeg';
-import Chairs106 from '../../assets/Chairs106.jpeg';
-import Chairs107 from '../../assets/Chairs107.jpeg';
-import Chairs108 from '../../assets/Chairs108.jpeg';
-import Chairs109 from '../../assets/Chairs109.jpeg';
-import Chairs110 from '../../assets/Chairs110.jpeg';
-import Chairs111 from '../../assets/Chairs111.jpeg';
-import Chairs112 from '../../assets/Chairs112.jpeg';
-import Chairs113 from '../../assets/Chairs113.jpeg';
-import Chairs114 from '../../assets/Chairs114.jpeg';
-import Chairs115 from '../../assets/Chairs115.jpeg';
-import Chairs116 from '../../assets/Chairs116.jpeg';
-import Chairs117 from '../../assets/Chairs117.jpeg';
-import Chairs118 from '../../assets/Chairs118.jpeg';
+import chairs83 from '../../assets/chairs83.jpeg';
+import chairs84 from '../../assets/chairs84.jpeg';
+import chairs85 from '../../assets/chairs85.jpeg';
+import chairs86 from '../../assets/chairs86.jpeg';
+import chairs87 from '../../assets/chairs87.jpeg';
+import chairs88 from '../../assets/chairs88.jpeg';
+import chairs89 from '../../assets/chairs89.jpeg';
+import chairs90 from '../../assets/chairs90.jpeg';
+import chairs91 from '../../assets/chairs91.jpeg';
+import chairs92 from '../../assets/chairs92.jpeg';
+import chairs93 from '../../assets/chairs93.jpeg';
+import chairs94 from '../../assets/chairs94.jpeg';
+import chairs95 from '../../assets/chairs95.jpeg';
+import chairs96 from '../../assets/chairs96.jpeg';
+import chairs97 from '../../assets/chairs97.jpeg';
+import chairs98 from '../../assets/chairs98.jpeg';
+import chairs99 from '../../assets/chairs99.jpeg';
+import chairs100 from '../../assets/chairs100.jpeg';
+import chairs101 from '../../assets/chairs101.jpeg';
+import chairs102 from '../../assets/chairs102.jpeg';
+import chairs103 from '../../assets/chairs103.jpeg';
+import chairs104 from '../../assets/chairs104.jpeg';
+import chairs105 from '../../assets/chairs105.jpeg';
+import chairs106 from '../../assets/chairs106.jpeg';
+import chairs107 from '../../assets/chairs107.jpeg';
+import chairs108 from '../../assets/chairs108.jpeg';
+import chairs109 from '../../assets/chairs109.jpeg';
+import chairs110 from '../../assets/chairs110.jpeg';
+import chairs111 from '../../assets/chairs111.jpeg';
+import chairs112 from '../../assets/chairs112.jpeg';
+import chairs113 from '../../assets/chairs113.jpeg';
+import chairs114 from '../../assets/chairs114.jpeg';
+import chairs115 from '../../assets/chairs115.jpeg';
+import chairs116 from '../../assets/chairs116.jpeg';
+import chairs117 from '../../assets/chairs117.jpeg';
+import chairs118 from '../../assets/chairs118.jpeg';
+
 
 
 
@@ -133,9 +134,10 @@ const images = [
   Chairs51, Chairs52, Chairs53, Chairs54, Chairs55, Chairs56, Chairs57, Chairs58, Chairs59, Chairs60,
   Chairs61,Chairs62, Chairs63, Chairs64, Chairs65, Chairs66, Chairs67, Chairs68, Chairs69, Chairs70,
   Chairs71, Chairs72, Chairs73, Chairs74, Chairs75, Chairs76, Chairs77, Chairs78, Chairs79, Chairs80, Chairs81,Chairs82
-  ,Chairs83,Chairs84,Chairs85,Chairs86,Chairs87,Chairs88,Chairs89,Chairs90,Chairs91,Chairs92,Chairs93,Chairs94,Chairs95
-  ,Chairs96,Chairs97,Chairs98,Chairs99,Chairs100,Chairs101,Chairs102,Chairs103,Chairs104,Chairs105,Chairs106,Chairs107
-  ,Chairs108,Chairs109,Chairs110,Chairs111,Chairs112,Chairs113,Chairs114,Chairs115,Chairs116,Chairs117,Chairs118
+  ,chairs83, chairs84, chairs85, chairs86, chairs87, chairs88, chairs89, chairs90, chairs91, chairs92, chairs93, chairs94, chairs95,
+  chairs96, chairs97, chairs98, chairs99, chairs100, chairs101, chairs102, chairs103, chairs104, chairs105, chairs106, chairs107,
+  chairs108, chairs109, chairs110, chairs111, chairs112, chairs113, chairs114, chairs115, chairs116, chairs117, chairs118
+  
 ];
 
 export default function Chairs() {
