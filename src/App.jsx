@@ -1,7 +1,7 @@
 import Footer from './Components/Footer/Footer';
 import UserLayout from './Layout/UserLayout';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter , BrowserRouter, Routes, Route} from 'react-router-dom';
 import Sofa from './Pages/Sofa/Sofa';
 import SofaCorners from './Pages/Sofa/SofaCorners';
 import Cabinets from './Pages/Cabinets/Cabinets';
