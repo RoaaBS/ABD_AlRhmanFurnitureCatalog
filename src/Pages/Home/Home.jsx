@@ -40,7 +40,7 @@ export default function Home() {
       <Card.Img variant="top" src={img1} />
       <Card.Body>
         <Card.Title>اطقم كنب</Card.Title>
-        <Button className='btn' as={Link}to="/sofa" >عرض المزيد</Button>
+        <Button className='btn' as={Link}to="/sofaT" >عرض المزيد</Button>
       </Card.Body>
     </Card></SwiperSlide>
       <SwiperSlide> <Card style={{ width: '18rem' }}>
