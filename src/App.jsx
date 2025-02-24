@@ -5,8 +5,7 @@ import { RouterProvider, createBrowserRouter , BrowserRouter, Routes, Route} fro
 import Sofa from './Pages/Sofa/Sofa';
 import SofaCorners from './Pages/Sofa/SofaCorners';
 import Cabinets from './Pages/Cabinets/Cabinets';
-import buffet from './Pages/buffet/buffet';
-import Buffet from './Pages/buffet/buffet';
+import Buffet from './Pages/Buffet/Buffet';
 import Tables from './Pages/Table/Tables';
 import AllCabinets from './Pages/Cabinets/AllCabinets';
 import Smcabinets from './Pages/Cabinets/Smcabinets';
