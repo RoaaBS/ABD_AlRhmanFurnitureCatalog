@@ -1,0 +1,15 @@
+.footer{
+    margin-top: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    background-color: Tan;
+    color: #fff;
+    text-align: center;
+}
+.footer h4{
+    font-size: 30px;
+}
+
+.copyright{
+    background-color: #DEB887;
+}

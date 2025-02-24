@@ -1,0 +1,16 @@
+img{
+width: 100%;
+}
+.btn{
+    background-color: Tan;
+    border-color: white;
+}
+.btn:hover{
+    background-color: aliceblue;
+    border-color: tan;
+    color: black;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: black !important;
+}
