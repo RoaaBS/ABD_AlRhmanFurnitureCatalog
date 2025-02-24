@@ -123,7 +123,7 @@ import Chairs117 from '../../assets/Chairs117.jpeg';
 import Chairs118 from '../../assets/Chairs118.jpeg';
 
 
-// Store imported images in an array
+
 const images = [
   Chairs1, Chairs2, Chairs3, Chairs4, Chairs5, Chairs6, Chairs7, Chairs8, Chairs9, Chairs10,
   Chairs11, Chairs12, Chairs13, Chairs14, Chairs15, Chairs16, Chairs17, Chairs18, Chairs19, Chairs20,
