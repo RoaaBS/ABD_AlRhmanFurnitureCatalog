@@ -1,6 +1,5 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import { Card,Button } from 'react-bootstrap';
 import cabinets1 from '../../assets/cabinets1.jpeg';
 import smCabinets from '../../assets/smCabinets12.jpeg'
 import WoodenCabinets from '../../assets/WoodenCabinets149.jpeg'

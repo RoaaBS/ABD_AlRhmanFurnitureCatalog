@@ -1,8 +1,6 @@
 import { useState } from "react"
 import React from 'react'
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
-import Modal from "react-bootstrap/Modal";
+import { Card, Modal,Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import ServCabinets1 from '../../assets/ServCabinets1.jpeg';
 import ServCabinets2 from '../../assets/ServCabinets2.jpeg';

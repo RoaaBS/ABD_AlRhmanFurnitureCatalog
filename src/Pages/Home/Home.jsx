@@ -1,5 +1,4 @@
 import React from 'react'
-import img from '../../assets/img.jpeg';
 import homepage from '../../assets/Homepage.jpeg'
 import img1 from '../../assets/img1.jpeg';
 import cabinets1 from '../../assets/cabinets1.jpeg';
@@ -8,8 +7,7 @@ import table20 from '../../assets/table20.jpeg'
 import './Home.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import { Card,Button } from 'react-bootstrap';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import { Link } from 'react-router-dom';

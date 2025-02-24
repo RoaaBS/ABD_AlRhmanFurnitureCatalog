@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
-import Modal from "react-bootstrap/Modal";
+import { Card, Modal,Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import cabinets1 from '../../assets/cabinets1.jpeg';
 import cabinets2 from '../../assets/cabinets2.jpeg';
