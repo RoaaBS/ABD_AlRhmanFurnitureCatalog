@@ -8,11 +8,8 @@ import cabinets4 from '../../assets/cabinets4.jpeg';
 import cabinets5 from '../../assets/cabinets5.jpeg';
 import cabinets6 from '../../assets/cabinets6.jpeg';
 import cabinets7 from '../../assets/cabinets7.jpeg';
-import cabinets8 from '../../assets/cabinets8.jpeg';
-import cabinets9 from '../../assets/cabinets9.jpeg';
-import cabinets10 from '../../assets/cabinets10.jpeg';
-import cabinets11 from '../../assets/cabinets11.jpeg';
-export default function Cabinets() {
+
+export default function AB() {
     const [showModal, setShowModal] = useState(false);
     const [selectedImage, setSelectedImage] = useState(null);
   
@@ -22,8 +19,7 @@ export default function Cabinets() {
     };
   
     const handleClose = () => setShowModal(false);
-    const images = [cabinets1,cabinets2,cabinets3,cabinets4,cabinets5,cabinets6,cabinets7,cabinets8,cabinets9
-    ,cabinets10,cabinets11];
+    const images = [cabinets1,cabinets2,cabinets3,cabinets4,cabinets5,cabinets6,cabinets7];
 
     return (
       <div>
@@ -32,7 +28,7 @@ export default function Cabinets() {
             <Card key={index} style={{ width: "16rem" }} onClick={() => handleShow(img)}>
               <Card.Img variant="top" src={img} className="mt-4" />
               <Card.Body className="card-body">
-                <Button as={Link} to="/cabinets"> اضغط</Button>
+                <Button as={Link} to="/ABCatalog"> اضغط</Button>
               </Card.Body>
             </Card>
           ))}

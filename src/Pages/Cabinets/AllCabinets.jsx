@@ -13,13 +13,6 @@ export default function AllCabinets() {
   return (
     <div className='d-flex flex-column'>
       <div className='d-flex gap-5 flex-wrap ms-4 mt-5'>
-        <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={cabinets1} />
-          <Card.Body>
-            <Card.Title>خزائن غرف</Card.Title>
-            <Button  as={Link} to="/cabinets">عرض المزيد</Button>
-          </Card.Body>
-        </Card>
           <Card style={{ width: '18rem' }}>
           <Card.Img variant="top" src={WoodenCabinets} />
           <Card.Body>

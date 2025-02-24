@@ -6,7 +6,7 @@ import './Sofa.css';
 import { Link } from 'react-router-dom';
 
 
-export default function SofaT() {
+export default function AllSofa() {
   return (
     <div className='d-flex flex-column'>
       <div className='d-flex gap-5 flex-wrap ms-4 mt-5'>

@@ -51,8 +51,7 @@ import CabinetsLibr47 from '../../assets/CabinetsLibr47.jpeg';
 import CabinetsLibr48 from '../../assets/CabinetsLibr48.jpeg';
 import CabinetsLibr49 from '../../assets/CabinetsLibr49.jpeg';
 import CabinetsLibr50 from '../../assets/CabinetsLibr50.jpeg';
-import CabinetsLibr51 from '../../assets/CabinetsLibr51.jpeg';
-import CabinetsLibr52 from '../../assets/CabinetsLibr52.jpeg';
+
 export default function CabinetsLibr() {
     const [showModal, setShowModal] = useState(false);
     const [selectedImage, setSelectedImage] = useState(null);
@@ -74,7 +73,7 @@ export default function CabinetsLibr() {
         CabinetsLibr36, CabinetsLibr37, CabinetsLibr38, CabinetsLibr39, CabinetsLibr40, 
         CabinetsLibr41, CabinetsLibr42, CabinetsLibr43, CabinetsLibr44, CabinetsLibr45, 
         CabinetsLibr46, CabinetsLibr47, CabinetsLibr48, CabinetsLibr49, CabinetsLibr50,
-        CabinetsLibr51,CabinetsLibr52
+      
       ];
       
   return (

@@ -2,7 +2,7 @@ import {React} from 'react'
 import { Card, Modal,Button } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import GlassCabinets1 from '../../assets/GlassCabinets1.jpeg';
+
 import GlassCabinets2 from '../../assets/GlassCabinets2.jpeg';
 import GlassCabinets3 from '../../assets/GlassCabinets3.jpeg';
 import GlassCabinets4 from '../../assets/GlassCabinets4.jpeg';
@@ -82,7 +82,7 @@ import GlassCabinets77 from '../../assets/GlassCabinets77.jpeg';
 import GlassCabinets78 from '../../assets/GlassCabinets78.jpeg';
 import GlassCabinets79 from '../../assets/GlassCabinets79.jpeg';
 import GlassCabinets80 from '../../assets/GlassCabinets80.jpeg';
-import GlassCabinets81 from '../../assets/GlassCabinets81.jpeg';
+
 
 export default function GlassCabinets() {
     const [showModal, setShowModal] = useState(false);
@@ -94,7 +94,7 @@ export default function GlassCabinets() {
     };
     const handleClose = () => setShowModal(false);
     const images = [
-        GlassCabinets1, GlassCabinets2, GlassCabinets3, GlassCabinets4, GlassCabinets5,
+         GlassCabinets2, GlassCabinets3, GlassCabinets4, GlassCabinets5,
         GlassCabinets6, GlassCabinets7, GlassCabinets8, GlassCabinets9, GlassCabinets10,
         GlassCabinets11, GlassCabinets12, GlassCabinets13, GlassCabinets14, GlassCabinets15,
         GlassCabinets16, GlassCabinets17, GlassCabinets18, GlassCabinets19, GlassCabinets20,
@@ -110,7 +110,7 @@ export default function GlassCabinets() {
         GlassCabinets66, GlassCabinets67, GlassCabinets68, GlassCabinets69, GlassCabinets70,
         GlassCabinets71, GlassCabinets72, GlassCabinets73, GlassCabinets74, GlassCabinets75,
         GlassCabinets76, GlassCabinets77, GlassCabinets78, GlassCabinets79, GlassCabinets80,
-        GlassCabinets81
+      
       ];
       
 

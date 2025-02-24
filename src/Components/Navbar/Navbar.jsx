@@ -19,9 +19,10 @@ export default function CustomNavbar() {
             <Nav.Link as={Link} to="/buffets"> بوفيه</Nav.Link>
             <Nav.Link as={Link} to="/Tables">طاولات</Nav.Link>
             <Nav.Link as={Link} to="/AllCabinets">خزائن</Nav.Link>
-            <Nav.Link as={Link} to="/sofaT">اطقم كنب</Nav.Link>
+            <Nav.Link as={Link} to="/AllSofa">اطقم كنب</Nav.Link>
             <Nav.Link as={Link} to="/Bed"> تخت</Nav.Link>
-            <Nav.Link as={Link} to="/Bedroom"> غرف نوم</Nav.Link>
+            <Nav.Link as={Link} to="/GBCatalog">  كتالوج G-B</Nav.Link>
+            <Nav.Link as={Link} to="/ABCatalog">  كتالوج A-B</Nav.Link>
             <NavDropdown.Divider />
           </Nav>
           <Navbar.Brand className="pe-5">مفروشات عبدالرحمن</Navbar.Brand>

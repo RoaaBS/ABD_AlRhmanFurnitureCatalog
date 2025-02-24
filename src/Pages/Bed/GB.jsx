@@ -20,7 +20,13 @@ import BedRoom16 from '../../assets/BedRoom16.jpeg';
 import BedRoom17 from '../../assets/BedRoom17.jpeg';
 import BedRoom18 from '../../assets/BedRoom18.jpeg';
 import BedRoom19 from '../../assets/BedRoom19.jpeg';
-export default function BedRoom() {
+import cabinets8 from '../../assets/cabinets8.jpeg';
+import cabinets9 from '../../assets/cabinets9.jpeg';
+import cabinets10 from '../../assets/cabinets10.jpeg';
+import cabinets11 from '../../assets/cabinets11.jpeg';
+import CabinetsLibr51 from '../../assets/CabinetsLibr51.jpeg';
+import CabinetsLibr52 from '../../assets/CabinetsLibr52.jpeg';
+export default function GB() {
     const [showModal, setShowModal] = useState(false);
     const [selectedImage, setSelectedImage] = useState(null);
   
@@ -33,7 +39,8 @@ export default function BedRoom() {
     const images = [
         BedRoom1, BedRoom2, BedRoom3, BedRoom4, BedRoom5, BedRoom6, BedRoom7, BedRoom8,
         BedRoom9, BedRoom10, BedRoom11, BedRoom12, BedRoom13, BedRoom14, BedRoom15, BedRoom16, BedRoom17
-        ,BedRoom18,BedRoom19
+        ,BedRoom18,BedRoom19,CabinetsLibr51,CabinetsLibr52,,cabinets8,cabinets9
+        ,cabinets10,cabinets11
       ];
       
   return (
@@ -43,7 +50,7 @@ export default function BedRoom() {
             <Card key={index} style={{ width: "16rem" }} onClick={() => handleShow(img)}>
               <Card.Img variant="top" src={img} className="mt-4" />
               <Card.Body className="card-body">
-                <Button as={Link} to="/BedRoom"> اضغط</Button>
+                <Button as={Link} to="/GBCatalog"> اضغط</Button>
               </Card.Body>
             </Card>
           ))}
