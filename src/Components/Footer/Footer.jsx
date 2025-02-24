@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faWhatsapp, faInstagram ,faTiktok} from '@fortawesome/free-brands-svg-icons';
 export default function Footer() {
     const phoneNumber = "+972522851212"; 
