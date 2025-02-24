@@ -20,6 +20,8 @@ import CabinetsLibr from './Pages/Cabinets/CabinetsLibr';
 import ServiCabinets from './Pages/Cabinets/ServiCabinets';
 import BedRoom from './Pages/Bed/BedRoom';
 import SofaT from './Pages/Sofa/SofaT';
+import "bootstrap/dist/css/bootstrap.min.css";
+
 const router = createBrowserRouter([
   {
     path: "/",
