@@ -12,6 +12,10 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import { Link } from 'react-router-dom';
 import Chairs50 from '../../assets/Chairs50.jpeg'
+import buffet137 from '../../assets/buffet137.jpeg';
+import BedT107 from '../../assets/BedT107.jpeg';
+import chairs96 from '../../assets/chairs96.jpeg';
+import GlassCabinets2 from '../../assets/GlassCabinets2.jpeg';
 export default function Home() {
   return (
     <div>
@@ -37,39 +41,73 @@ export default function Home() {
     >
       <SwiperSlide>   
       <Card style={{ width: '18rem' }} className='ms-5'>
-      <Card.Img variant="top" src={img1} />
+      <Card.Img variant="top" src={img1}   style={{height:'25rem'}}/>
       <Card.Body>
         <Card.Title>اطقم كنب</Card.Title>
         <Button className='btn' as={Link}to="/AllSofa" >عرض المزيد</Button>
       </Card.Body>
     </Card></SwiperSlide>
       <SwiperSlide> <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={table20} />
+      <Card.Img variant="top" src={table20}  style={{height:'25rem'}} />
       <Card.Body>
-        <Card.Title>طاولات</Card.Title>
+        <Card.Title>طاولات سفره</Card.Title>
         <Button className='btn'as={Link}to="/Tables" >عرض المزيد</Button>
       </Card.Body>
     </Card></SwiperSlide>
-      <SwiperSlide> <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={Chairs50} />
+    <SwiperSlide> <Card style={{ width: '17rem' }}>
+      <Card.Img variant="top" src={chairs96}  style={{height:'25rem'}}/>
       <Card.Body>
-        <Card.Title>كراسي و بفات</Card.Title>
+        <Card.Title>   كراسي سفره</Card.Title>
+        <Button variant="primary" as={Link}to="/DinningChairs">عرض المزيد</Button>
+      </Card.Body>
+      </Card>
+      </SwiperSlide>
+      <SwiperSlide> <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={Chairs50}  style={{height:'25rem'}} />
+      <Card.Body>
+        <Card.Title>كورسا و بفات</Card.Title>
         <Button className='btn' as={Link} to="/Chairs">عرض المزيد</Button>
       </Card.Body>
     </Card></SwiperSlide>
       <SwiperSlide> <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={cabinets1} />
+      <Card.Img variant="top" src={GlassCabinets2}  style={{height:'25rem'}} />
       <Card.Body>
         <Card.Title>خزائن</Card.Title>
         <Button variant="primary" as={Link}to="/AllCabinets">عرض المزيد</Button>
       </Card.Body>
     </Card></SwiperSlide> <SwiperSlide> <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={buffet1} />
+      <Card.Img variant="top" src={buffet1}  style={{height:'25rem'}} />
       <Card.Body>
-        <Card.Title>بوفيه</Card.Title>
+        <Card.Title>مزنون طاوله وسط</Card.Title>
         <Button variant="primary" as={Link}to="/buffets">عرض المزيد</Button>
       </Card.Body>
+     
     </Card></SwiperSlide>
+
+    <SwiperSlide> <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={BedT107}  style={{height:'25rem'}} />
+    <Card.Body>
+        <Card.Title>  تخت</Card.Title>
+        <Button variant="primary" as={Link}to="/Bed">عرض المزيد</Button>
+      </Card.Body>
+      </Card>
+      </SwiperSlide>
+      <SwiperSlide> <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={cabinets1}  style={{height:'25rem'}} />
+      <Card.Body>
+        <Card.Title>  غرف نوم G-B</Card.Title>
+        <Button variant="primary" as={Link}to="/GBCatalog">عرض المزيد</Button>
+      </Card.Body>
+      </Card>
+      </SwiperSlide>
+      <SwiperSlide> <Card style={{ width: '17rem' }}>
+      <Card.Img variant="top" src={buffet137}  style={{height:'25rem'}}/>
+      <Card.Body>
+        <Card.Title>  غرف نوم A-B</Card.Title>
+        <Button variant="primary" as={Link}to="/ABCatalog">عرض المزيد</Button>
+      </Card.Body>
+      </Card>
+      </SwiperSlide>
      
     </Swiper>
     </div>

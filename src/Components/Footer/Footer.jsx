@@ -26,9 +26,7 @@ export default function Footer() {
   className="btn btn-outline-light btn-social mx-1"
   href={`https://wa.me/${phoneNumber}`}
   onClick={(e) => {
-    // You can detect if WhatsApp opened by checking for errors
     if (navigator.userAgent.match(/iPhone|Android/i)) {
-      // Display a message or redirect if necessary
     }
   }}
 >

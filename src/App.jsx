@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { RouterProvider, createBrowserRouter , BrowserRouter, Routes, Route} from 'react-router-dom';
 import Sofa from './Pages/Sofa/Sofa';
 import SofaCorners from './Pages/Sofa/SofaCorners';
-import AB from './Pages/Cabinets/AB';
+import GB from './Pages/Cabinets/GB';
 import Buffet from './Pages/Buffet/Buffet';
 import Tables from './Pages/Table/Tables';
 import AllCabinets from './Pages/Cabinets/AllCabinets';
@@ -17,9 +17,10 @@ import BedO from './Pages/Bed/BedO';
 import BedT from './Pages/Bed/BedT';
 import CabinetsLibr from './Pages/Cabinets/CabinetsLibr';
 import ServiCabinets from './Pages/Cabinets/ServiCabinets';
-import GB from './Pages/Bed/GB';
+import AB from './Pages/Bed/AB';
 import AllSofa from './Pages/Sofa/AllSofa';
 import "bootstrap/dist/css/bootstrap.min.css";
+import DiningChairs from './Pages/Chairs/DiningChairs';
 
 const router = createBrowserRouter([
   {
@@ -60,12 +61,14 @@ element:<ServiCabinets/>},
 element:<Tables/>},
 {path:"Chairs",
 element:<Chairs/>},
+{path:"DinningChairs",
+element:<DiningChairs/>},
 {path:"Bed",
 element:<Bed/>},
-{path:"GBCatalog",
-element:<GB/>},
 {path:"ABCatalog",
 element:<AB/>},
+{path:"GBCatalog",
+element:<GB/>},
 {path:"BedO",
 element:<BedO/>},
 {path:"BedT",

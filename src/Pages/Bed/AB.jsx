@@ -26,7 +26,8 @@ import cabinets10 from '../../assets/cabinets10.jpeg';
 import cabinets11 from '../../assets/cabinets11.jpeg';
 import CabinetsLibr51 from '../../assets/CabinetsLibr51.jpeg';
 import CabinetsLibr52 from '../../assets/CabinetsLibr52.jpeg';
-export default function GB() {
+import buffet137 from '../../assets/buffet137.jpeg';
+export default function AB() {
     const [showModal, setShowModal] = useState(false);
     const [selectedImage, setSelectedImage] = useState(null);
   
@@ -40,7 +41,7 @@ export default function GB() {
         BedRoom1, BedRoom2, BedRoom3, BedRoom4, BedRoom5, BedRoom6, BedRoom7, BedRoom8,
         BedRoom9, BedRoom10, BedRoom11, BedRoom12, BedRoom13, BedRoom14, BedRoom15, BedRoom16, BedRoom17
         ,BedRoom18,BedRoom19,CabinetsLibr51,CabinetsLibr52,,cabinets8,cabinets9
-        ,cabinets10,cabinets11
+        ,cabinets10,cabinets11,buffet137
       ];
       
   return (
@@ -50,7 +51,7 @@ export default function GB() {
             <Card key={index} style={{ width: "16rem" }} onClick={() => handleShow(img)}>
               <Card.Img variant="top" src={img} className="mt-4" />
               <Card.Body className="card-body">
-                <Button as={Link} to="/GBCatalog"> اضغط</Button>
+                <Button as={Link} to="/ABCatalog"> اضغط</Button>
               </Card.Body>
             </Card>
           ))}

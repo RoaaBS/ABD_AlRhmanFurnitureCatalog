@@ -81,7 +81,7 @@ import GlassCabinets76 from '../../assets/GlassCabinets76.jpeg';
 import GlassCabinets77 from '../../assets/GlassCabinets77.jpeg';
 import GlassCabinets78 from '../../assets/GlassCabinets78.jpeg';
 import GlassCabinets79 from '../../assets/GlassCabinets79.jpeg';
-import GlassCabinets80 from '../../assets/GlassCabinets80.jpeg';
+
 
 
 export default function GlassCabinets() {
@@ -109,7 +109,7 @@ export default function GlassCabinets() {
         GlassCabinets61, GlassCabinets62, GlassCabinets63, GlassCabinets64, GlassCabinets65,
         GlassCabinets66, GlassCabinets67, GlassCabinets68, GlassCabinets69, GlassCabinets70,
         GlassCabinets71, GlassCabinets72, GlassCabinets73, GlassCabinets74, GlassCabinets75,
-        GlassCabinets76, GlassCabinets77, GlassCabinets78, GlassCabinets79, GlassCabinets80,
+        GlassCabinets76, GlassCabinets77, GlassCabinets78, GlassCabinets79, 
       
       ];
       

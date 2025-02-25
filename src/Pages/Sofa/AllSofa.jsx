@@ -21,7 +21,7 @@ export default function AllSofa() {
         <Card style={{ width: '20rem' }}>
           <Card.Img variant="top" src={img1} />
           <Card.Body>
-            <Card.Title>اطقم كنب عادي</Card.Title>
+            <Card.Title>اطقم كنب </Card.Title>
             <Button as={Link} to="/sofa">عرض المزيد</Button>
           </Card.Body>
         </Card>

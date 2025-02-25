@@ -137,7 +137,7 @@ import buffet133 from '../../assets/buffet133.jpeg';
 import buffet134 from '../../assets/buffet134.jpeg';
 import buffet135 from '../../assets/buffet135.jpeg';
 import buffet136 from '../../assets/buffet136.jpeg';
-import buffet137 from '../../assets/buffet137.jpeg';
+
 
 export default function Buffet() {
     const [showModal, setShowModal] = useState(false);
@@ -163,7 +163,7 @@ export default function Buffet() {
       buffet101, buffet102, buffet103, buffet104, buffet105, buffet106, buffet107, buffet108, buffet109, buffet110,
       buffet111, buffet112, buffet113, buffet114, buffet115, buffet116, buffet117, buffet118, buffet119, buffet120,
       buffet121, buffet122, buffet123, buffet124, buffet125, buffet126, buffet127, buffet128, buffet129, buffet130,
-      buffet131,buffet132,buffet133,buffet134,buffet135,buffet136,buffet137
+      buffet131,buffet132,buffet133,buffet134,buffet135,buffet136
     ];
     
 
