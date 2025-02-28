@@ -61,7 +61,25 @@ import GB50 from '../../assets/GB50.jpeg';
 import GB51 from '../../assets/GB51.jpeg';
 import GB52 from '../../assets/GB52.jpeg';
 import GB53 from '../../assets/GB53.jpeg';
-
+import GB54 from '../../assets/GB54.jpeg';
+import GB55 from '../../assets/GB55.jpeg';
+import GB56 from '../../assets/GB56.jpeg';
+import GB57 from '../../assets/GB57.jpeg';
+import GB58 from '../../assets/GB58.jpeg';
+import GB59 from '../../assets/GB59.jpeg';
+import GB60 from '../../assets/GB60.jpeg';
+import GB61 from '../../assets/GB61.jpeg';
+import GB62 from '../../assets/GB62.jpeg';
+import GB63 from '../../assets/GB63.jpeg';
+import GB64 from '../../assets/GB64.jpeg';
+import GB65 from '../../assets/GB65.jpeg';
+import GB66 from '../../assets/GB66.jpeg';
+import GB67 from '../../assets/GB67.jpeg';
+import GB68 from '../../assets/GB68.jpeg';
+import GB69 from '../../assets/GB69.jpeg';
+import GB70 from '../../assets/GB70.jpeg';
+import GB71 from '../../assets/GB71.jpeg';
+import GB72 from '../../assets/GB72.jpeg';
 
 export default function GB() {
     const [showModal, setShowModal] = useState(false);
@@ -76,7 +94,8 @@ export default function GB() {
     const images = [cabinets1,cabinets2,cabinets3,cabinets4,cabinets5,cabinets6,cabinets7,GB1,GB2,GB3,GB4
     ,GB5, GB6, GB7, GB8, GB9, GB10, GB11, GB12, GB13, GB14, GB15, GB16, GB17, GB18, GB19, GB20,
     GB21, GB22, GB23, GB24, GB25, GB26, GB27, GB28, GB29, GB30, GB31, GB32, GB33, GB34, GB35, GB36,
-    GB37, GB38, GB39, GB40, GB41, GB42, GB43, GB44, GB45, GB46, GB47, GB48, GB49, GB50, GB51, GB52, GB53];
+    GB37, GB38, GB39, GB40, GB41, GB42, GB43, GB44, GB45, GB46, GB47, GB48, GB49, GB50, GB51, GB52, GB53
+  ,GB54,GB55,GB56,GB57,GB58,GB59,GB60,GB61,GB62,GB63,GB64,GB65,GB66,GB67,GB68,GB69,GB70,GB71,GB72];
 
     return (
       <div>
